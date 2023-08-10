@@ -1,0 +1,32 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    line-height: normal;
+    text-align: justify;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dish
+{
+    font-weight: bold;
+}
+
+.dish_picture
+{
+    width:500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.ingridients_title
+{
+    text-align: justify;
+}

@@ -1,9 +1,16 @@
+/* *
+{
+    margin: 0px;
+    padding: 0px;
+} */
+
 body
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: whitesmoke;
     line-height: normal;
     text-align: justify;
+    margin: 0px;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -21,12 +28,44 @@ h1,h2,h3,h4,h5,h6
 {
     width:500px;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     display: block;
 }
 
-.ingridients_title
+.main_title
 {
-    text-align: justify;
+    background-color: grey;
+    margin: 0px;
+    padding: 30px 0px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.dish
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    padding: 32px;
+    /* margin-bottom: 1px 0px; */
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid black;
+    background-image: var(--background);
+    background-size: cover;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dish:hover
+{
+    text-decoration:underline;
+}
+
+.food_list
+{
+    list-style-type: none;
+    padding: 0px;
 }
